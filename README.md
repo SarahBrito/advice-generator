@@ -28,15 +28,9 @@
 
 <h2>Autor</h2>
 
-<img src='https://avatars.githubusercontent.com/u/82614086?v=4' class='img'>
+<img src='https://avatars.githubusercontent.com/u/82614086?v=4' class='img' width= '120px' style='border-radius:50%;'>
 <p>Feito com ❤️ por Sara Brito</p>
 
-<a href="https://www.linkedin.com/in/sara-brito-49312a211/" target="_blank" ><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+<a href="https://www.linkedin.com/in/sara-brito-49312a211/" target="_blank" ><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" ></a>
   <a href="https://www.instagram.com/sara_bds_/" target="_blank" ><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
 
-<style>
-    .img {
-        width: 120px;
-        border-radius: 50%;
-    }
-</style>

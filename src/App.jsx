@@ -25,8 +25,8 @@ function App() {
           {advice.advice}
         </span>
         <div className="divider"></div>
-        <button className="generator-divider" onClick={handleAdvice}>
-          <img src="../src/assets/images/icon-dice.svg" alt="" />
+        <button className="generator-advice" onClick={handleAdvice}>
+          <img src="https://images2.imgbox.com/55/78/85XeU456_o.png" alt="" />
         </button>
       </div>
 

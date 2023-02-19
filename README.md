@@ -1,4 +1,4 @@
-<h1>Advice Genereator</h1>
+<h1>Advice Generator</h1>
 
 <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.</p>
 

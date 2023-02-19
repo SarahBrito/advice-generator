@@ -1,0 +1,108 @@
+@use 'index';
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  grid-template-areas:  'main'
+                        'main'
+                        'footer';
+  justify-content: center;
+  align-items: center ;
+}
+
+.container {
+  width: 480px;
+  height: 300px;
+  background: index.$dark-grayish-blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  padding: 35px 30px;
+  position: relative;
+  grid-area: main;
+}
+
+.title {
+  color: index.$neon-green;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 4px;
+}
+
+.advice {
+  display: flex;
+  align-items: center;
+  color: index.$light-cyan;
+  font-size: 25px;
+  font-weight: 800;
+  text-align: center;
+  margin: 10px 0;
+  height: 55%;
+}
+
+.divider {
+  width: 400px;
+  height: 45px;
+  background-image: url('../src/assets/images/pattern-divider-desktop.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+}
+
+.generator-divider {
+  background: index.$neon-green;
+  border: none;
+  outline: none;
+  width: 45px;
+  height: 45px;
+  padding: 30px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: -25px;
+  cursor: pointer;
+  transition: .3s ease-in-out;
+  
+  &:hover {
+    -webkit-box-shadow: 0px 2px 58px 0px rgba(82,255,168,1);
+    -moz-box-shadow: 0px 2px 58px 0px rgba(82,255,168,1);
+    box-shadow: 0px 2px 58px 0px rgba(82,255,168,1);
+  }
+}
+
+.attribution {
+  color: index.$light-cyan;
+  grid-area: footer;
+  margin-bottom: 24px;
+  text-align: center;
+  
+  a {
+    color: index.$neon-green;
+    text-decoration: none;
+    font-weight: 800;
+    transition: .3s ease-in;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+@media (max-width: 485px) {
+
+  .container {
+    width: calc(100vw - 20px);   
+    margin: 0 10px;
+  }
+
+  .divider {
+    background-image: url('../src/assets/images/pattern-divider-mobile.svg');
+    width: 90%;
+  }
+}

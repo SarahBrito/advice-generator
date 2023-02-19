@@ -1,0 +1,22 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Manrope', sans-serif;
+}
+
+// Primary Color
+
+$light-cyan: #cee3e9;
+$neon-green: #52ffa8;
+
+// Neutral Color
+
+$grayish-blue: #4e5d73;
+$dark-grayish-blue: #323a49;
+$dark-blue: #1f2632;
+
+body {
+  background: $dark-blue;
+}
